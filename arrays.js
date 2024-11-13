@@ -266,7 +266,31 @@
 
 //includes
 
-const arr = ["red", "blue", "Purple", "white", "orange"];
-console.log(arr.includes("blue")); // true
-console.log(arr.includes("Blue")); // false
-console.log(arr.includes("blue", 2)); // false
+// const arr = ["red", "blue", "Purple", "white", "orange"];
+// console.log(arr.includes("blue")); // true
+// console.log(arr.includes("Blue")); // false
+// console.log(arr.includes("blue", 2)); // false
+
+//Nested Arrays
+
+const arr = [1, true, [3, "Red", 5], [6, 7, 8]];
+arr.sort()
+// arr[2].splice(1, 1, "yellow");
+// console.log(arr.length)
+
+// console.log(arr[0]) // 1
+
+// console. log(arr[2]) // [3, "Red', 5]
+// console.log(arr[3]) // [6, 7, 8]
+
+// console.log(arr[2] [0]) // 3
+// console.log(arr[2] [1]) // Red
+// console. log(arr[2] [2]) // 5
+
+// console.log(arr[3] [2]) //8
+
+//ek bilgi
+
+// const arr = ['Red', 'Green',,,,, "Blue' ]
+
+console.log(arr)
